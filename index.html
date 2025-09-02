@@ -109,7 +109,7 @@
             var dic_class2information = {};
             dic_class2information['나연'] = 'JYP엔터테인먼트 소속 9인조 그룹 TWICE의 멤버';
             dic_class2information['장원영'] = '스타쉽엔터테인먼트 소속 6인조 걸그룹 IVE의 멤버.';
-            dic_class2information['조유리'] = '2021년 싱글 앨범 'GLASSY'로 솔로 가수로 데뷔해 현재까지 활발히 활동 중인 솔로 가수이자 배우';
+            dic_class2information['조유리'] = '2021년 싱글 앨범 GLASSY로 솔로 가수로 데뷔해 현재까지 활발히 활동 중인 솔로 가수이자 배우';
             var image = document.getElementById("face-image");
             const prediction = await model.predict(image, false);
             prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
